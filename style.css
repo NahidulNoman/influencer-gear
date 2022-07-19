@@ -149,8 +149,12 @@ body{
 }
 .section-footer{
     text-align: end;
-    margin-right: 125px;
-    color:#dd5a5a
+    margin-right: 120px;
+    color: #e02c6dde;
+}
+.section-footer h3{
+    margin-right: 54px;
+    margin-top: 50px;
 }
 /* section two end */
 
@@ -160,6 +164,7 @@ body{
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
+    margin-top: 90px;
 }
 .section-three-left img {
     width: 404px;
@@ -168,11 +173,26 @@ body{
 }
 .section-three-right h1{
     font-size: 38px;
+    font-weight: 700;
+}
+.section-three-right p{
+    font-size: 16px;
+    font-weight:700;
+    color:#6C6C6C;
+}
+.section-three-right button{
+    padding: 10px 24px;
+    border-radius: 10px;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border: white;
 }
 /* section three end */
 /* footer start */
 .footer{
-    background-color: black;
+    background-color: #0c072b;
     color:white;
     padding:30px;
     margin:auto;
@@ -181,7 +201,12 @@ body{
 .footer h2{
     margin-bottom: -3px;
     font-weight: 700;
-    color: #dd5a5a;
+    color: #ffffff;
+}
+.footer p{
+    color: #D9DBE1;
+    font-weight: 700;
+    font-size: 14px;
 }
 .footer i {
     border-radius: 3px;
