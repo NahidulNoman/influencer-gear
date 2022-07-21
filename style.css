@@ -17,6 +17,12 @@ body{
     margin: 0 auto;
     max-width: 1000px;
 }
+.main-icon{
+    display: none;
+}
+.nav-right{
+    display: flex;
+}
 .nav-left{
     font-weight: 700;
     font-size: 24px;
@@ -212,6 +218,58 @@ body{
     border-radius: 3px;
     padding:4px
 }
-
-
 /* footer end */
+
+/* responsive media query */
+
+@media only screen and (max-width:600px) {
+    .main-icon{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    .nav-main{
+        justify-content: space-around;
+    }
+    .top-banner{
+        flex-direction: column-reverse;
+    }
+    .right-banner img{
+        width:50%
+    }
+    .right-banner{
+        height: 200px;
+    }
+    .left-banner h1{
+        font-size:25px
+    }
+    .left-banner{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .article-img{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .parent-card{
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .section-three{
+        flex-direction: column-reverse;
+    }
+    .section-three-right h1 {
+        font-size: 25px;
+    }
+    .section-three-right{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .section-three-left{
+        margin: 0 auto;
+        text-align:center;
+    }
+}
